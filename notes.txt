@@ -1,0 +1,89 @@
+c - datatypes
+--------------
+int a = 10;
+float b = 34.34;
+char
+double
+long
+short
+
+python - objects
+-----------------
+*** Everything is python is object ***
+*** Every object contains methods ***
+
+
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.43
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+list ( array in C)
+-----
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+
+alist = [10,20,30,40]
+blist = ["python","java"]
+clist = [[10,20,30],[40,5060,8]]
+
+tuple ( immutable , unchangeable)
+-----
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+** Elements inside tuple cant be modified directly**
+
+atup = (10,30,40)
+btup = ("python","unix")
+
+
+empdb = [["rita","IND",30],["ram","US",29]]
+
+empdb = [("rita","IND",30),("ram","US",29)]
+
+
+
+
+dictionary ( json hash  hashmap  associatearray)
+----------
+dictionary contains keys and values.
+keys are unique
+key can be number or string to identify the values
+value can be number or string or tuple or list or dict.
+
+syntax:  object = {"chap1":10 ,"chap2":20}
+example:   book = {"chap1":10 ,"chap2":20,"chap3":30}
+
+
+ book
+ ----
+chap1  10
+chap2  20
+chap3  30
+chap4  40
+chap5  40
+
+
+
+set (venn diagrams)
+----
+set is all about unique data.
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset = {10,10,20,20,30,30}
+
+
+
+https://codeshare.io/5XnrKG
