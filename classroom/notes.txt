@@ -1,0 +1,302 @@
+c - datatypes
+--------------
+int a = 10;
+float b = 34.34;
+char
+double
+long
+short
+
+python - objects
+-----------------
+*** Everything is python is object ***
+*** Every object contains methods ***
+
+
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.43
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+list ( array in C)
+-----
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+
+alist = [10,20,30,40]
+blist = ["python","java"]
+clist = [[10,20,30],[40,5060,8]]
+
+tuple ( immutable , unchangeable)
+-----
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+** Elements inside tuple cant be modified directly**
+
+atup = (10,30,40)
+btup = ("python","unix")
+
+
+empdb = [["rita","IND",30],["ram","US",29]]
+
+empdb = [("rita","IND",30),("ram","US",29)]
+
+
+
+
+dictionary ( json hash  hashmap  associatearray)
+----------
+dictionary contains keys and values.
+keys are unique
+key can be number or string to identify the values
+value can be number or string or tuple or list or dict.
+
+syntax:  object = {"chap1":10 ,"chap2":20}
+example:   book = {"chap1":10 ,"chap2":20,"chap3":30}
+
+
+ book
+ ----
+chap1  10
+chap2  20
+chap3  30
+chap4  40
+chap5  40
+
+
+
+set (venn diagrams)
+----
+set is all about unique data.
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset = {10,10,20,20,30,30}
+
+
+file handling
+---------------
+
+txt
+csv
+json
+xml
+xlsx
+pptx
+jpeg
+png 
+pdf
+docx
+doc
+rtf
+exe 
+bat
+.msi
+iso
+rar
+zip
+tar
+.tar.gz
+log 
+prop
+bmp
+7z
+
+
+working with flat files :  csv  txt conf log 
+
+
+working with third party files : pdf xlsx docx  pptx
+
+
+working with flat files 
+--------------------
+read mode (r)
+write mode ( w)
+append mode ( a )
+
+opening the file
+----------------
+syntax:  object = open(filename,mode)
+example:    fobj= open("hello.txt","r")
+            # the file should exist to read the file
+
+            fobj= open("hello.txt","w")
+            #case1: If file is not existing, file will be created first
+            #case2: if file is already existing, it overwrites
+
+            fobj= open("hello.txt","a")
+            #case1: If file is not existing, file will be created first
+            #case2: if file is already existing, it appends
+            
+closing the file
+---------------
+fobj.close()
+
+
+read operation
+---------------
+1.reading the file line by line using file object
+2. using fobj.readlines()
+3. using fobj.read()
+4. using csv library
+5. using pandas library
+
+
+Installing third party library 
+-------------------------------
+pip install <libaryname>
+
+pip install pandas   # installs lastest version of pandas
+
+installing particular version :
+---------------------------
+pip install pandas==2.2.1
+
+
+
+
+exception handling
+-----------------
+syntax error
+semantic error or logical error or runtime error
+
+
+Handling errors that occurs during runtime is knwon as exception handling
+
+try
+except 
+else 
+finally
+raise
+
+
+
+virtual environments
+-------------------
+
+
+version : python 3.10
+-------------
+openpyxl 3.1.5
+
+
+python 3.10
+-------------
+openpyxl 3.1.2
+
+python 3.13
+-----------
+openpyxl 3.1.3
+
+
+
+
+creating virual environments
+------------------------------
+
+using venv library
+----------------
+
+creating environement :  
+----------------------
+python -m venv myenv
+python -m venv myenv1
+python -m venv myenv2
+python -m venv myenv3
+
+
+
+activate your environement
+-------------------------
+myenv\Scripts\activate      ( windows)
+myenv1\Scripts\activate  
+myenv2\Scripts\activate  
+
+source .\myenv\bin\activate  ( linux)
+
+
+
+user defined functions
+--------------------
+function | definition | block | subroutine | submodule
+------------------------------
+- code reusuability
+- define the block once and call it for multiple times.
+
+
+different ways of passing arguments
+------------------------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+Every OS contains set of processes that running
+Every process contains system calls
+
+
+
+procedural programming : top - down programming
+
+object oriented programming
+-----------------------------
+class
+object
+inheritance
+polymorphism
+- function overloading
+- operator overloading
+escapsulation
+
+
+
+
+class
+------
+class is blueprint of the house.
+Every class contains data members(attributes) and member functions(methods)
+
+object
+--------
+object is the instance of the class.
+
+self
+----
+self is the instance of the object.
+
+
+
+
+write an object oriented program to display all the records from the file
+
+
+
+
+
+
+image processing
+---------------
+-pillow
+-opencv
+-statistics ,machine learning,deep learning
+- using genai
+
+
+web scrapping
+--------------
+beautifulsoup
+scrapy
